@@ -1,0 +1,237 @@
+{
+    "status": 200,
+    "nextPage": "https://opendata.mkrf.ru/v2/museums/$?f=%7B%22data.general.name%22%3A%7B%22%24search%22%3A%22%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%22%7D%2C%22data.general.locale.name%22%3A%7B%22%24search%22%3A%22%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%22%7D%7D&l=1&cursor=AoE%2BNWRhODI3M2NkMGVkMDEzMGE4MzRmZWMxITIxNTk2",
+    "cursor": "AoE+NWRhODI3M2NkMGVkMDEzMGE4MzRmZWMxITIxNTk2",
+    "total": 3,
+    "filter": {
+        "$and": [
+            {
+                "data.general.name": {
+                    "$search": "Исторический"
+                }
+            },
+            {
+                "data.general.locale.name": {
+                    "$search": "Москва"
+                }
+            },
+            {
+                "odSetVersions": {
+                    "$in": [
+                        "5da8273cd0ed0130a834fec1"
+                    ]
+                }
+            }
+        ]
+    },
+    "o": false,
+    "s": 0,
+    "l": 1,
+    "data": [
+        {
+            "_id": "5da8277a825ad31ace7a4119",
+            "nativeId": "21596",
+            "hash": "2019-06-28T07:37:47Z",
+            "data": {
+                "info": {
+                    "path": "/cdm/v2/museums/21596",
+                    "category": "place",
+                    "createDate": "2016-05-31T08:35:06Z",
+                    "updateDate": "2019-06-28T07:37:47Z"
+                },
+                "general": {
+                    "id": 21596,
+                    "name": "Выставочный комплекс Исторического музея",
+                    "description": "<p>Архитектурный ансамбль площади Революции в Москве трудно представить без оформленного в псевдорусском стиле краснокирпичного здания, похожего на терем. Это здание было построено в конце XIX века специально для Московской городской Думы. В 1930-х годах здесь открылся Музей им. В. И. Ленина, а в 1990-х годах его передали Государственному историческому музею. <span>Сейчас Выставочный комплекс Исторического музея условно разделен на несколько зон, что позволяет осуществлять в нем масштабные выставочные проекты.</span></p><p><span>На здании комплекса можно прочесть надпись «Музей Отечественной войны 1812 года». </span><span>По поручению правительства на базе коллекции ГИМ в 2012 году состоялось торжественное открытие нового технологичного музея, посвященного войне 1812 года. Экспозиция находится во дворе между бывшими зданиями городской Думы и присутственных мест. </span><span>Музей Отечественной войны 1812 года и Выставочный комплекс Государственного исторического музея имеют общий вход.</span></p>",
+                    "status": "accepted",
+                    "address": {
+                        "street": "пл Революции,д 2/3",
+                        "comment": "",
+                        "fiasHouseId": "a1a9a2b3-bd0c-4e07-96ee-32444f01a286",
+                        "fiasStreetId": "e2a7a0c0-d950-4994-a158-1dc398cbb900",
+                        "fiasCityId": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5",
+                        "fiasRegionId": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5",
+                        "fullAddress": "г Москва,г Москва,пл Революции,д 2/3",
+                        "mapPosition": {
+                            "type": "Point",
+                            "coordinates": [
+                                37.618641,
+                                55.7563
+                            ]
+                        }
+                    },
+                    "category": {
+                        "name": "Музеи и галереи",
+                        "sysName": "muzei-i-galerei"
+                    },
+                    "contacts": {
+                        "website": "http://www.shm.ru",
+                        "email": "shm@shm.ru",
+                        "phones": [
+                            {
+                                "value": "74956924019",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    "externalInfo": [
+                        {
+                            "url": "https://www.culture.ru/institutes/26000/vystavochnyi-kompleks-istoricheskogo-muzeya",
+                            "serviceName": "Культура.рф"
+                        },
+                        {
+                            "url": "https://www.2do2go.ru/places/42092/vystavochnyi-kompleks-gosudarstvennogo-istoricheskogo-muzeya",
+                            "serviceName": "2do2go.ru"
+                        },
+                        {
+                            "url": "https://opentripmap.com/ru/card/ORC21596",
+                            "serviceName": "OpenTripMap"
+                        },
+                        {
+                            "url": "http://afisha.sputnik.ru/places/Vistavochniy-kompleks-Istoricheskogo-muzeya-f7f",
+                            "serviceName": "sputnik"
+                        }
+                    ],
+                    "extraFields": {
+                        "types": [
+                            "Исторический",
+                            "Военно-Исторический",
+                            "Историко-бытовой",
+                            "Дек.прикладного и нар. искусства",
+                            "Изобразительного исскуства"
+                        ]
+                    },
+                    "image": {
+                        "url": "https://all.culture.ru/uploads/54f3709ce6a355b0ca3cac4910776a6b.jpeg",
+                        "title": "DSC_3600.jpg"
+                    },
+                    "localeIds": [
+                        2579,
+                        1
+                    ],
+                    "locale": {
+                        "name": "Москва",
+                        "timezone": "Europe/Moscow",
+                        "sysName": "moskva",
+                        "id": 2579
+                    },
+                    "organization": {
+                        "id": 2096,
+                        "name": "ФГБУК «Государственный исторический музей»",
+                        "inn": "7704060908",
+                        "type": "mincult",
+                        "address": {
+                            "street": "пл Красная,д 1",
+                            "comment": "",
+                            "fiasHouseId": "0c2c345f-cd7b-4011-9f3b-65095ab4c186",
+                            "fiasStreetId": "8e39d017-db1c-413f-ae77-5f0d3b9e7ee9",
+                            "fiasCityId": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5",
+                            "fiasRegionId": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5",
+                            "fullAddress": "г Москва,г Москва,пл Красная,д 1"
+                        },
+                        "subordinationIds": [
+                            1
+                        ],
+                        "subordination": {
+                            "name": "РФ",
+                            "timezone": "Europe/Moscow",
+                            "sysName": "rf",
+                            "id": 1
+                        },
+                        "localeIds": [
+                            2579,
+                            1
+                        ],
+                        "locale": {
+                            "name": "Москва",
+                            "timezone": "Europe/Moscow",
+                            "sysName": "moskva",
+                            "id": 2579
+                        },
+                        "socialGroups": [
+                            {
+                                "network": "vk",
+                                "name": "Государственный Исторический музей",
+                                "networkId": "54878061",
+                                "updateDate": "2015-04-08T07:13:33Z",
+                                "createDate": "2015-04-08T07:13:33Z",
+                                "accountId": 878,
+                                "postingGroupId": 1024
+                            },
+                            {
+                                "network": "vk",
+                                "name": "Кафедра XIX - начала XX века (МГУ)",
+                                "networkId": "157846351",
+                                "updateDate": "2018-04-09T09:30:15Z",
+                                "createDate": "2018-04-09T09:30:15Z",
+                                "accountId": 20661,
+                                "postingGroupId": 18295
+                            },
+                            {
+                                "network": "twitter",
+                                "name": "Исторический музей",
+                                "networkId": "160839296",
+                                "isPersonal": true,
+                                "updateDate": "2015-04-08T07:13:35Z",
+                                "createDate": "2015-04-08T07:13:35Z",
+                                "accountId": 879,
+                                "postingGroupId": 1025
+                            }
+                        ]
+                    },
+                    "tags": [
+                        {
+                            "id": 24,
+                            "name": "История",
+                            "sysName": "istoriya"
+                        }
+                    ],
+                    "workingSchedule": {
+                        "0": {
+                            "from": "10:00:00",
+                            "to": "21:00:00"
+                        },
+                        "1": {
+                            "from": "10:00:00",
+                            "to": "21:00:00"
+                        },
+                        "2": {
+                            "from": "10:00:00",
+                            "to": "21:00:00"
+                        },
+                        "3": {
+                            "from": "10:00:00",
+                            "to": "21:00:00"
+                        },
+                        "4": {
+                            "from": "10:00:00",
+                            "to": "21:00:00"
+                        },
+                        "5": {
+                            "from": "10:00:00",
+                            "to": "21:00:00"
+                        },
+                        "6": {
+                            "from": "10:00:00",
+                            "to": "21:00:00"
+                        }
+                    }
+                }
+            },
+            "status": 0,
+            "nativeName": "Выставочный комплекс Исторического музея",
+            "activated": "2021-01-16T22:26:34.111Z",
+            "created": "2021-01-16T22:26:34.145Z",
+            "modified": "2021-01-16T22:26:34.145Z",
+            "odSetVersions": [
+                "5da8273cd0ed0130a834fec1",
+                "5da8273cd0ed0130a834fec1"
+            ],
+            "odSetVersion": "5da8273cd0ed0130a834fec1",
+            "updateSession": "600367dc84b4815a1d485436",
+            "odSchema": "5da8249dd0ed0130a834fe69",
+            "dataset": "5777ad7041b82e6e6a897dc5"
+        }
+    ],
+    "count": 1
+}
